@@ -1,0 +1,920 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #e7e5e5;
+}
+
+section {
+    width: 100%;
+    height: 17vh;
+    background-color: #FF5B22;
+}
+
+nav {
+    width: 85%;
+    height: auto;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.navbar-ul {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    margin-top: 6px;
+}
+
+.navbar-li {
+    list-style: none;
+}
+
+.navbar-li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.navbar-li a:hover {
+    color: rgb(204, 204, 204);
+}
+
+.navbar-content {
+    width: 13%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(219, 230, 226, 0.911);
+    margin-right: 99px;
+    margin-top: -13px;
+}
+
+.navbar-content img {
+    width: 20px;
+    height: 100%;
+    align-items: center;
+    margin-top: -11px;
+    margin-top: 0.2px;
+}
+
+.navbar-content p {
+    align-items: center;
+    font-size: 13px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    margin-top: 11px;
+}
+
+.second-navbar {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.second-content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.second-content img {
+    width: 109px;
+    height: 100%;
+    margin: auto;
+    margin-left: 42px;
+}
+
+
+.second-nav-form {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.second-nav-form input {
+    width: 199%;
+    height: 100%;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    padding: 0.7rem;
+    border: none;
+    outline: none;
+    margin-top: 0.7rem;
+    border-radius: 30px;
+    margin-left: 0.8rem;
+}
+
+.second-nav-form a {
+    font-weight: 900;
+    color: rgb(245, 0, 0);
+    margin-top: 9px;
+    background-color: rgb(255, 196, 196);
+    padding: 0.6rem;
+    border-radius: 8px;
+}
+
+.btn-of-second-navbar {
+    width: 20%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 12px;
+    gap: 10px;
+}
+
+.btn-of-second-navbar a {
+    font-size: 31px;
+    color: rgb(255, 255, 255);
+    margin-left: 15px;
+}
+
+.navbar-btn-login {
+    width: 85px;
+    height: 38px;
+    background-color: transparent;
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    align-items: center;
+    margin-left: -23px;
+    border: none;
+    outline: none;
+}
+
+.navbar-btn-signup {
+    width: 85px;
+    height: 38px;
+    background-color: transparent;
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    border: none;
+    outline: none;
+    border-left: 1.2px solid rgb(255, 255, 255);
+}
+
+.en-navbar {
+    width: 20%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    margin-top: 25px;
+    gap: 10px;
+}
+
+.en-navbar a {
+    font-weight: 700;
+    font-size: 21px;
+    color: white;
+    margin-top: -9px;
+}
+
+.en-navbar h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+}
+
+.trolli-icon {
+    font-size: 34px !important;
+    margin-left: 13px;
+    color: white;
+}
+
+
+
+/* hero sec start */
+.hero-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    padding: 3rem;
+}
+
+.items-container {
+    width: 20%;
+    height: 350px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 6px;
+    box-shadow: 0px 0px 24px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    background-color: white;
+}
+
+.items {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+}
+
+.items h1 {
+    margin: auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #6b6767;
+}
+
+.items a {
+    color: black;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 35px;
+    color: #a8a4a4;
+}
+
+.slider {
+    width: 76%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+/* hero sec end */
+
+
+.aid-container {
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.aid-container img {
+    width: 999px;
+    height: 100%;
+}
+
+
+/* seconf hero section start */
+.second-hero-container {
+    width: 89%;
+    height: 40PX;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    background-color: rgb(248, 209, 215);
+    padding: 0.2rem;
+    border-radius: 20px;
+    margin-top: 3rem;
+}
+
+.item-01 {
+    width: 20%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-right: 4px solid rgb(172, 171, 170);
+}
+
+.item-01 h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.item-01 a {
+    font-size: 17px;
+    font-weight: 800;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: -5px;
+}
+
+/* seconf hero section end */
+
+
+/* third hero section start */
+.third-hero-container {
+    width: 90%;
+    height: 60%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    background-color: white;
+    border-radius: 50px;
+    margin-top: 2rem;
+}
+
+.item-02 img {
+    width: 37px;
+    height: 50%;
+    margin: auto;
+}
+
+.item-02 {
+    width: 15%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-right: 2px solid rgb(126, 122, 122);
+}
+
+.item-02 h1 {
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/* third hero section end */
+
+.main-time-of-Card {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1.6px solid rgb(134, 133, 133);
+    padding: 1rem;
+}
+
+.card-works {
+    width: 40%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.card-on-sale {
+    width: 150%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+
+    margin-left: 30px;
+    color: #FF5B22;
+}
+
+.ending-in {
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    margin-left: 40px;
+
+}
+
+.time-content {
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.time {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    margin-left: 10px;
+
+    border-radius: 10px;
+    gap: 10px;
+}
+
+.main-time {
+    background-color: rgb(255, 123, 0);
+    border-radius: 1px;
+    padding: 0.3rem;
+}
+
+.time-content button {
+    width: 120px;
+    height: 40px;
+    margin: auto;
+    margin-left: 670px;
+    margin-top: -40px;
+    color: rgb(255, 123, 0);
+    border: none;
+    border: 1.4px solid rgb(255, 123, 0);
+}
+
+.flash-sale {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.flash-sale h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    margin-left: 107px;
+    margin-top: 3rem;
+    color: rgb(127, 133, 127);
+}
+
+.container {
+    background-color: white;
+    padding: 1rem;
+}
+
+.row {
+    gap: 91px;
+    margin-right: 16px;
+}
+
+.col-lg-2:hover {
+    border: none;
+    outline: none;
+    box-shadow: 0px 0px 15px 3px rgba(0, 0, 0, 0.1);
+}
+
+/* Catogory section satrt */
+.main-catogories {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-left: 3.5rem;
+    padding-right: 3.5rem;
+}
+
+.catogory {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 1rem;
+    border-bottom: 0.5px solid rgb(180, 177, 177);
+    border-top: 0.5px solid rgb(187, 182, 182);
+    border-left: 0.5px solid rgb(187, 184, 184);
+    gap: 9px;
+}
+
+.catogory img {
+    width: 90px;
+    height: 100%;
+}
+
+.catogory h3 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    margin-left: 20px;
+}
+
+.main-catogories-01 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem;
+    margin-top: -4.6rem;
+    padding-left: 3.5rem;
+    padding-right: 3.5rem;
+}
+
+.catogories-logo h1 {
+    font-size: 23px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    margin-left: 65px;
+    margin-top: 100px;
+}
+
+/* * Catogory section end */
+
+/* foryou sec start */
+.foryou-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 4.5rem;
+    gap: 8px;
+}
+
+.foryou-container h1 {
+    font-size: 23px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+}
+
+.foryou-content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.foryou-content-01 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 19px;
+    justify-content: center;
+}
+
+.foryou-cards {
+    width: 16%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 0.4rem;
+    background-color: white;
+
+}
+
+.foryou-cards:hover {
+    box-shadow: 0px 0px 13px 7px rgba(0, 0, 0, 0.1);
+}
+
+.foryou-cards h3 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    margin-top: 17px;
+}
+
+.foryou-cards h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    color: red;
+}
+
+.foryou-cards p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    font-size: 13.5px;
+    color: #a19e9e;
+}
+
+.foryou-sapn {
+    text-decoration: line-through 2px solid rgb(100, 99, 99);
+    color: #6b6767;
+    font-weight: 600;
+}
+
+.btn-foryou {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-foryou button {
+    width: 430px;
+    height: 36px;
+    background-color: transparent;
+    color: red;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 19px;
+    font-weight: 500;
+    border: none;
+    outline: none;
+    border: 1px solid red;
+}
+
+/* foryou sec end */
+
+/* footer start */
+footer {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    margin-top: 3rem;
+}
+
+.footer-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    padding: 4.8rem;
+}
+
+.footer-01 {
+    width: 25%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-02 {
+    width: 25%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.footer-02 h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    font-size: 19px;
+    color: red;
+}
+
+.footer-01 h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    font-size: 19px;
+    color: red;
+}
+
+.footer-01 p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    margin: auto;
+    gap: 9px !important;
+    margin-top: 5px;
+}
+
+.make-money-01 {
+    margin-top: 1.9rem;
+}
+
+.footer-01 p:hover {
+    text-decoration: underline;
+}
+
+.daraz-international img {
+    width: 35px;
+    height: 100%;
+    border-radius: 30px;
+
+}
+
+.daraz-international {
+    width: 100%;
+    height: 100%;
+}
+
+.payment-01 {
+    margin-top: 2rem;
+}
+
+.payment-method {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.payment-method img {
+    width: 45px;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-top: 6rem;
+    margin-left: -100px;
+}
+
+.main-payment {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.verify img {
+    width: 90px;
+    height: 100%;
+}
+
+.verify h1 {
+    margin-top: 2rem;
+}
+
+.Exclusive-deals img {
+    width: 120px;
+    height: 100%;
+    margin-left: 60px;
+}
+
+.follow-us {
+    width: 25%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.follow-us h1 {
+    margin-top: -60px;
+    margin-left: 240px;
+}
+
+.follow-us img {
+    width: 44px;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    margin-top: 7rem;
+    justify-content: center;
+    align-items: center;
+}
+
+/* footer end */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+*/ @media only screen and (max-width: 460px) {
+
+    nav {
+        width: 100%;
+        height: 100%;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .navbar-content {
+        width: 100%;
+        height: 100%;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: rgba(219, 230, 226, 0.911);
+        padding: 20px;
+    }
+
+    .second-navbar {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .second-content {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .second-nav-form {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 20px;
+    }
+
+    .btn-of-second-navbar a {
+        font-size: 31px;
+        color: rgb(255, 255, 255);
+        padding: 20px;
+    }
+
+    .en-navbar {
+        width: 100%;
+        height: 100%;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        margin-top: 25px;
+        gap: 10px;
+    }
+
+    .hero-container {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .items-container {
+        width: 100%;
+        height: 100%;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 6px;
+        padding: 20px;
+        box-shadow: 0px 0px 24px 12px rgba(0, 0, 0, 0.1);
+        border-radius: 20px;
+    }
+
+    .items {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 6px;
+    }
+
+    .second-hero-container {
+        width: 100%;
+        height: 100%;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+        background-color: rgb(248, 209, 215);
+        border-radius: 20px;
+    }
+
+    .slider {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+}
